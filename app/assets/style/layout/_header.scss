@@ -1,0 +1,29 @@
+.logo{
+  background: url(https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d%E2%80%99Perfume.png) no-repeat;
+  width: 128px;
+  height: 38px;
+}
+
+@media (max-width: 767px){
+  .navbar-light{
+    .navbar-nav{
+      .nav-link{
+        color: $white;
+        border-bottom: 1px solid $white;
+        background-color: #707070;
+
+        &:hover, &:active{
+          color: theme-color("drak");
+          background-color: theme-color("light");;
+        }
+      }
+    }
+  }
+}
+
+.cart-icon{
+  top: -6px;
+  right: -8px;
+  font-size: 50%;
+  font-weight: normal;
+}
