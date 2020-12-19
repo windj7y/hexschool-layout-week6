@@ -5,287 +5,239 @@ engine: ejs
 current: products
 ---
 
-<div class="bg-primary d-none d-md-block">
-  <div class="container">
-    <ul class="nav products-nav">
-      <li class="nav-item">
-        <a class="nav-link h5 pl-0" href="#">CHANEL</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link h5" href="#">Jo Malone</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link h5" href="#">Curology</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link h5" href="#">Dior</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link h5" href="#">Chloe</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link h5" href="#">ZARA</a>
-      </li>
-    </ul>
-  </div>
-</div>
 <div class="container py-9 pt-md-14 pb-md-13">
   <ul class="row list-unstyled products mb-0">
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products1.jpg" alt="products1" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">
-            NT$1,380
-            <del class="text-dark ml-2">NT$1,580</del>
-          </p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products1.jpg" alt="products1" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">
+          NT$1,380
+          <del class="text-dark ml-2">NT$1,580</del>
+        </p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg" alt="index6" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">
-            NT$1,380
-            <del class="text-dark ml-2">NT$1,580</del>
-          </p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg" alt="index6" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">
+          NT$1,380
+          <del class="text-dark ml-2">NT$1,580</del>
+        </p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products3.jpg" alt="products3" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">NT$1,380</p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products3.jpg" alt="products3" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">NT$1,380</p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products4.jpg" alt="products4" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">NT$1,380</p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products4.jpg" alt="products4" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">NT$1,380</p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products5.jpg" alt="products5" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">
-            NT$1,380
-            <del class="text-dark ml-2">NT$1,580</del>
-          </p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products5.jpg" alt="products5" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">
+          NT$1,380
+          <del class="text-dark ml-2">NT$1,580</del>
+        </p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg" alt="index4" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">
-            NT$1,380
-            <del class="text-dark ml-2">NT$1,580</del>
-          </p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg" alt="index4" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">
+          NT$1,380
+          <del class="text-dark ml-2">NT$1,580</del>
+        </p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products7.jpg" alt="products7" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">NT$1,380</p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products7.jpg" alt="products7" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">NT$1,380</p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products8.jpg" alt="products8" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">NT$1,380</p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products8.jpg" alt="products8" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">NT$1,380</p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png" alt="index3" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">
-            NT$1,380
-            <del class="text-dark ml-2">NT$1,580</del>
-          </p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png" alt="index3" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">
+          NT$1,380
+          <del class="text-dark ml-2">NT$1,580</del>
+        </p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products10.jpg" alt="products10" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">
-            NT$1,380
-            <del class="text-dark ml-2">NT$1,580</del>
-          </p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products10.jpg" alt="products10" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">
+          NT$1,380
+          <del class="text-dark ml-2">NT$1,580</del>
+        </p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products11.jpg" alt="products11" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">NT$1,380</p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products11.jpg" alt="products11" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">NT$1,380</p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
-    <li class="col-6 col-md-3 mb-md-12">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products12.jpg" alt="products12" class="products-img">
-        </a>
-        <div class="card-body">
-          <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
-          <p class="mb-0">Jo Malone</p>
-          <p class="mb-0">NT$1,380</p>
-          <div class="d-flex">
-            <a href="#" class="mr-2">
-              <span class="material-icons">favorite</span>
-            </a>
-            <a href="#">
-              <span class="material-icons">shopping_cart</span>
-            </a>
-          </div>
+    <li class="col-6 col-md-3 mb-md-12 card">
+      <a href="product.html">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/products12.jpg" alt="products12" class="products-img">
+      </a>
+      <div class="card-body">
+        <h2 class="card-title font-weight-semibold">Poppy & Barley</h2>
+        <p class="mb-0">Jo Malone</p>
+        <p class="mb-0">NT$1,380</p>
+        <div class="d-flex">
+          <a href="#" class="mr-2" data-toggle="modal" data-target="#favorite">
+            <span class="material-icons">favorite</span>
+          </a>
+          <a href="#" data-toggle="modal" data-target="#addCart">
+            <span class="material-icons">shopping_cart</span>
+          </a>
         </div>
       </div>
     </li>
@@ -301,7 +253,7 @@ current: products
 <div class="subscribe d-flex align-items-end">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-auto col-xl-4">
         <h3 class="h2 text-dark font-weight-bold mb-4">記得<br>訂閱以獲取更多資訊！</h3>
         <form action="">
           <div class="input-group">
@@ -311,6 +263,35 @@ current: products
             </div>
           </div>
         </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
+<div class="modal fade" id="favorite" tabindex="-1" aria-labelledby="favoriteLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="d-flex align-items-center">
+          <p class="h5 font-weight-semibold text-primary mx-auto">已加入我的收藏</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="addCart" tabindex="-1" aria-labelledby="addCartLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="d-flex align-items-center">
+          <p class="h5 font-weight-semibold text-primary mx-auto">已加入購物車</p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
